@@ -1,0 +1,42 @@
+graph G {
+  1234 -- 3142 -- 4321 -- 2413 -- 1234;
+  1243 -- 4132 -- 3421 -- 2314 -- 1243;
+  1324 -- 2143 -- 4231 -- 3412 -- 1324;
+  1342 -- 4123 -- 2431 -- 3214 -- 1342;
+  1423 -- 2134 -- 3241 -- 4312 -- 1423;
+  1432 -- 3124 -- 2341 -- 4213 -- 1432;
+  
+  1234 -- 4231 [color="green"];
+  1243 -- 3241 [color="green"];
+  1324 -- 4321 [color="green"];
+  1342 -- 2341 [color="green"];
+  1423 -- 3421 [color="green"];
+  1432 -- 2431 [color="green"];
+  2134 -- 4132 [color="green"];
+  2143 -- 3142 [color="green"];
+  2314 -- 4312 [color="green"];
+  2413 -- 3412 [color="green"];
+//   2431 -- 1432 [color="green"];
+  3124 -- 4123 [color="green"];
+//   3142 -- 2143 [color="green"];
+  3214 -- 4213 [color="green"];
+//   3241 -- 1243 [color="green"];
+//   3412 -- 2413 [color="green"];
+//   3421 -- 1423 [color="green"];
+//   4123 -- 3124 [color="green"];
+//   4132 -- 2134 [color="green"];
+//   4213 -- 3214 [color="green"];
+//   4312 -- 2314 [color="green"];
+//   4321 -- 1324 [color="green"];
+  1234 -- 1243 [color="yellow"];
+  1234 -- 1342 [color="yellow"];
+  1423 -- 1432 [color="yellow"];
+  2314 -- 2341 [color="yellow"];
+  2413 -- 2431 [color="yellow"];
+  3124 -- 3142 [color="yellow"];
+  3214 -- 3241 [color="yellow"];
+  3412 -- 3421 [color="yellow"];
+  4123 -- 4132 [color="yellow"];
+  4213 -- 4231 [color="yellow"];
+  4312 -- 4321 [color="yellow"];
+}
